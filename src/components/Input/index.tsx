@@ -49,6 +49,7 @@ const Input: FC<InputPros> = ({ name, icon: Icon, ...rest }) => {
         {...rest}
         defaultValue={defaultValue}
       />
+      {error}
     </Container>
   );
 };
